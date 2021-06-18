@@ -3,10 +3,7 @@
   "version": "1.0.0",
   "description": "Not for production use. This project is for testing @snyk/protect.",
   "main": "index.js",
-  "scripts": {
-    "snyk-protect": "npm_config_yes=true npx @snyk/protect@latest",
-    "prepare": "npm run snyk-protect"
-  },
+  "scripts": {},
   "dependencies": {
     "@snyk/patchable-dep-fixture": "^1.0.0"
   },
